@@ -21,5 +21,10 @@ namespace Battle.Models
         {
             Console.WriteLine($"{Name} did a Boooooo!");
         }
+
+        public void Hide()
+        {
+            Console.WriteLine($"{Name} hid in the trees");
+        }
     }
 }

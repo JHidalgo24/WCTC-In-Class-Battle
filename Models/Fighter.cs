@@ -55,7 +55,8 @@ namespace Battle.Models
             }
             else
             {
-                Console.WriteLine($"{monster.Name} tried to scare you but it was tiny and weak and only had {monster.HP} health. You punted it!");
+                Console.WriteLine($"{monster.Name} tried to scare you but it was tiny and weak and only had {monster.HP}" +
+                                  $" health. You punted it!");
             }
         }
     }

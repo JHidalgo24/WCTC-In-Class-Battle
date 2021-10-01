@@ -29,7 +29,6 @@ namespace Battle
             Wendigo.Roar();
             Wendigo.Spook();
             fighter.Scared(Wendigo);
-
             //IRepository repos = new JsonRepository();
             
             // all i care about is that I retrieved a movie

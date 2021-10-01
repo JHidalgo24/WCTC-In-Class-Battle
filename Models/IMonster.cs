@@ -8,5 +8,6 @@ namespace Battle.Models
         void Roar();
         void Stomp();
         void Spook();
+        void Hide();
     }
 }
