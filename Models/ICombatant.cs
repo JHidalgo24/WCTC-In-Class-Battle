@@ -6,5 +6,7 @@ namespace Battle.Models
         public Weapon Weapon { get; set; }
         void Attack(ICombatant enemy);
         void Defend(ICombatant enemy);
+        void Dodge(ICombatant enemy);
+        void Scared(IMonster monster);
     }
 }

@@ -22,9 +22,13 @@ namespace Battle
 
             // Attack Enemy (execute method)
             fighter.Attack(enemy);
-
-            IMonster monster = null;
-            monster.Roar();
+            fighter.Dodge(enemy);
+            IMonster Wendigo = new Wendigo();
+            Wendigo.Name = "Wendigo";
+            Wendigo.HP = 5;
+            Wendigo.Roar();
+            Wendigo.Spook();
+            fighter.Scared(Wendigo);
 
             //IRepository repos = new JsonRepository();
             

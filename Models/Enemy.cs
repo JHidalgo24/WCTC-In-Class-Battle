@@ -21,5 +21,15 @@ namespace Battle.Models
         {
             throw new System.NotImplementedException();
         }
+
+        public void Dodge(ICombatant enemy)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Scared(IMonster monster)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
